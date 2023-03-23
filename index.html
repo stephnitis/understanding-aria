@@ -5,16 +5,21 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
   <title>Understanding ARIA Labels and Roles</title>
+
 </head>
 
 <body>
   <header>
+    <span id="announce" aria-live="assertive">You are on a new page.</span>
     <h1>Test Page With Screen Reader</h1>
     <nav>
-      <a href="landing-page.html"> Unclear Link </a>
+      <a href="landing-page.html" id="unclear-link" aria-label="To Landing Page">Unclear Link </a>
     </nav>
   </header>
 </body>
-
+<main></main>
+<footer></footer>
+<script src="./js/app.js"></script>
 </html>
