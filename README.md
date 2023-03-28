@@ -12,3 +12,6 @@
 - [Working Example of role=status](https://www.w3.org/WAI/WCAG22/working-examples/aria-role-status-searchresults/)
 - [WCAG Understanding Status Messages](https://www.w3.org/WAI/WCAG21/Understanding/status-messages.html)
 - [Provide Notification of Dynamic Changes](https://accessibility.huit.harvard.edu/provide-notification-dynamic-changes-content)
+- [Role Alert VS Aria Live](https://www.youtube.com/watch?v=BRB6pNYATGE)
+- [Timer Example](https://codepen.io/heydon/pres/NGgNjZ)
+- [A11ycasts Alerts and Live Regions](https://www.youtube.com/watch?v=5lzAj1ahRSI)

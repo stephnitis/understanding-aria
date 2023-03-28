@@ -12,13 +12,17 @@
 
 <body>
   <header>
-    <span id="announce" role="status" tabindex="0">You are on a new page.</span>
     <h1>You Should Land Here</h1>
     <nav>
-      <a href="index.html" id="unclear-link">Unclear Link</a>
+      <a href="index.html" aria-controls=”announce”>Unclear Link</a>
     </nav>
   </header>
-  <main></main>
+  <main>
+    <a href="#someContent" role="button">Repurposed Link</a>
+    <div id="someContent" role="status" aria-label="you are now in some content">
+      <p>How will this announce?</p>
+    </div>
+  </main>
   <footer></footer>
   <script src="./js/app.js"></script>
 </body>
