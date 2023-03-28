@@ -14,3 +14,12 @@ document.addEventListener('DOMContentLoaded', function(){
     dynamicDivAlert.append(newDiv);
   })
 })
+
+const btn = document.querySelector('#btn');
+const alert = document.querySelector('#alert');
+const template = document.querySelector('#notification-template');
+
+btn.onclick = function(){
+  const clone = template.content.cloneNode(true);
+  alert.appendChild(clone);
+}
