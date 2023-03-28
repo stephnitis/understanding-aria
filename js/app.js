@@ -1,5 +1,7 @@
 'use strict';
 
+// index.html alerts
+
 let divAlert = document.querySelector('#divAlert');
 let btnSubmit = document.querySelector('#btnSubmit');
 let dynamicDivAlert = document.querySelector('#divDynamicAlert');
@@ -14,6 +16,8 @@ document.addEventListener('DOMContentLoaded', function(){
     dynamicDivAlert.append(newDiv);
   })
 })
+
+// for alert on landing-page
 
 const btn = document.querySelector('#btn');
 const alert = document.querySelector('#alert');
